@@ -45,7 +45,7 @@ public class ChessPlateGenerator : MonoBehaviour
     {
         for (int i=0;i<piecesCoords.Length;i++) 
         {
-            PieceType pieceTypeToPlace = piecesCoords[i].piece.pieceType;
+            PieceType pieceTypeToPlace = piecesCoords[i].pieceType;
             int type = (int)pieceTypeToPlace;
             GameObject pieceToPlace = Instantiate(WhitePrefab[type]);
             pieceToPlace.transform.position = new Vector2(piecesCoords[i].coords.x *_whiteBoxDimension.x - _plateOffset.x, piecesCoords[i].coords.y * _whiteBoxDimension.y - _plateOffset.y);
@@ -55,7 +55,7 @@ public class ChessPlateGenerator : MonoBehaviour
     {
         for (int i = 0; i < piecesCoords.Length; i++)
         {
-            PieceType pieceTypeToPlace = piecesCoords[i].piece.pieceType;
+            PieceType pieceTypeToPlace = piecesCoords[i].pieceType;
             int type = (int)pieceTypeToPlace;
             GameObject pieceToPlace = Instantiate(BlackPrefab[type]);
             pieceToPlace.transform.position = new Vector2(piecesCoords[i].coords.x * _whiteBoxDimension.x - _plateOffset.x, piecesCoords[i].coords.y * _whiteBoxDimension.y - _plateOffset.y);

@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &247826654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247826656}
+  - component: {fileID: 247826657}
+  m_Layer: 0
+  m_Name: _scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &247826656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247826654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &247826657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247826654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fbc2267a77ab345a47b95a876c9dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,103 +297,15 @@ MonoBehaviour:
   - {fileID: 7518475604413675085, guid: fdd015f15bec2c64ab92a6777d528220, type: 3}
   - {fileID: 2602450922049682866, guid: 8223814b3417a8b42b78a1f41eea31e1, type: 3}
   whitePieces:
-  - piece:
-      pieceType: 0
+  - pieceType: 0
     coords: {x: 0, y: 1}
-  - piece:
-      pieceType: 0
+  - pieceType: 0
     coords: {x: 1, y: 1}
-  - piece:
-      pieceType: 0
-    coords: {x: 2, y: 1}
-  - piece:
-      pieceType: 0
-    coords: {x: 3, y: 1}
-  - piece:
-      pieceType: 0
-    coords: {x: 4, y: 1}
-  - piece:
-      pieceType: 0
-    coords: {x: 5, y: 1}
-  - piece:
-      pieceType: 0
-    coords: {x: 6, y: 1}
-  - piece:
-      pieceType: 0
-    coords: {x: 7, y: 1}
-  - piece:
-      pieceType: 3
-    coords: {x: 0, y: 0}
-  - piece:
-      pieceType: 2
-    coords: {x: 1, y: 0}
-  - piece:
-      pieceType: 1
-    coords: {x: 2, y: 0}
-  - piece:
-      pieceType: 4
-    coords: {x: 3, y: 0}
-  - piece:
-      pieceType: 5
-    coords: {x: 4, y: 0}
-  - piece:
-      pieceType: 1
-    coords: {x: 5, y: 0}
-  - piece:
-      pieceType: 2
-    coords: {x: 6, y: 0}
-  - piece:
-      pieceType: 3
-    coords: {x: 7, y: 0}
   blackPieces:
-  - piece:
-      pieceType: 0
+  - pieceType: 0
     coords: {x: 0, y: 6}
-  - piece:
-      pieceType: 0
+  - pieceType: 0
     coords: {x: 1, y: 6}
-  - piece:
-      pieceType: 0
-    coords: {x: 2, y: 6}
-  - piece:
-      pieceType: 0
-    coords: {x: 3, y: 6}
-  - piece:
-      pieceType: 0
-    coords: {x: 4, y: 6}
-  - piece:
-      pieceType: 0
-    coords: {x: 5, y: 6}
-  - piece:
-      pieceType: 0
-    coords: {x: 6, y: 6}
-  - piece:
-      pieceType: 0
-    coords: {x: 7, y: 6}
-  - piece:
-      pieceType: 3
-    coords: {x: 0, y: 7}
-  - piece:
-      pieceType: 2
-    coords: {x: 1, y: 7}
-  - piece:
-      pieceType: 1
-    coords: {x: 2, y: 7}
-  - piece:
-      pieceType: 4
-    coords: {x: 3, y: 7}
-  - piece:
-      pieceType: 5
-    coords: {x: 4, y: 7}
-  - piece:
-      pieceType: 1
-    coords: {x: 5, y: 7}
-  - piece:
-      pieceType: 2
-    coords: {x: 6, y: 7}
-  - piece:
-      pieceType: 3
-    coords: {x: 7, y: 7}
   PlateDimension: {x: 8, y: 8}
 --- !u!4 &1410722753
 Transform:
